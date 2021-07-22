@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL55Dialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/posts?useSSL=false</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">3141592653</property>
+        <property name="hibernate.id.new_generator_mappings">false</property>
+        <property name="current_session_context_class">thread</property>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">false</property>
+        <property name="use_sql_comments">false</property>
+        <property name="generate_statistics">true</property>
+        <property name="batch_size">20</property>
+        <property name="order_inserts">true</property>
+        <property name="order_updates">true</property>
+        <property name="jdbc.batch_versioned_data">true</property>
+        
+        <mapping class="com.nt.rookie.entity.Author"/>
+        <mapping class="com.nt.rookie.entity.Post"/>
+        <mapping class="com.nt.rookie.entity.Authority"/>
+    </session-factory>
+</hibernate-configuration>
