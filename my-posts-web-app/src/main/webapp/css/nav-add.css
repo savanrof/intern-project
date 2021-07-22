@@ -1,0 +1,13 @@
+#add-nav a {
+	bottom: 0;
+	color: #0085a1;
+	cursor: pointer;
+	font-size: 2em;
+	margin: 50px;
+	position: fixed;
+	right: 0;
+}
+
+#add-nav a:hover{
+	color: #00657b;
+}

@@ -1,0 +1,99 @@
+div .contentBox{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-self: center;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    width: 70%;
+}
+
+div .contentBox .formBox{
+    width: 70%;
+}
+
+div .contentBox .formBox h2{
+    color: #607d8b;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 3em;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+div .contentBox .formBox .inputBox{
+    margin-bottom: 20px;
+}
+div .contentBox .formBox .inputBox span{
+    color: #607d8b;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+div .contentBox .formBox .inputBox  input{
+    background: transparent;
+    border: 1px solid #607d8b;
+    border-radius: 10px;
+    color: #607d8b;
+    font-size: 20px;
+    font-weight: 400;
+    outline: none;
+    padding: 10px 20px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+div .contentBox .formBox .inputBox textarea{
+    background: transparent;
+    border: 1px solid #607d8b;
+    border-radius: 10px;
+    color: #607d8b;
+    font-size: 20px;
+    font-weight: 400;
+    outline: none;
+    padding: 10px 20px;
+    resize: none;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+div .contentBox .formBox .inputBox  input[type="submit"]{
+    background: #0085a1;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    outline: none;
+    width: 30%;
+}
+
+div .contentBox .formBox .inputBox  input[type="submit"]:hover{
+    background-color: #00657b;
+}
+
+div .contentBox .formBox .remember-me{
+    color: #607d8b;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 30%;
+}
+
+div hr{
+    width: 100%;
+    color: #eee;
+    border: 0;
+    border-top: 1px solid;
+}

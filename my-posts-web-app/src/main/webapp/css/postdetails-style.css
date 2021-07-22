@@ -1,0 +1,30 @@
+div .contentBox{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+div .contentBox h2{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 3em;
+    letter-spacing: 1px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+div .contentBox article{
+    color: #607d8b;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+div .contentBox .information p{
+    font-style: italic;
+    font-size: 20px;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
